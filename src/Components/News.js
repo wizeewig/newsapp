@@ -36,44 +36,6 @@ const News = (props)=>{
     document.title = `${capitalizeFirstLetter(props.category)}- CC-News`;
     updateNews();
   }, [])
-  
-
-//   handlePrevClick = async () => {
-//     // let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${this.state.page-1}&pageSize=${props.pageSize}`;
-//     // this.setState({loading:true})
-//     // let data = await fetch(url);
-//     // let parsedData = await data.json()
-
-//     // this.setState({
-//     //         page : this.state.page-1,
-//     //         articles : parsedData.articles,
-//     //         loading : false
-//     //     })
-//     this.setState({
-//       page: this.state.page - 1,
-//     });
-//     this.updateNews();
-//   };
-
-//   handleNextClick = async () => {
-//     // if (!(this.state.page + 1 > Math.ceil(this.state.totalResults / props.pageSize))){
-
-//     // let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${this.state.page+1}&pageSize=${props.pageSize}`;
-//     // this.setState({loading:true})
-//     // let data = await fetch(url);
-//     // let parsedData = await data.json()
-//     // this.setState({loading:false})
-
-//     // this.setState({
-//     //         page : this.state.page+1,
-//     //         articles : parsedData.articles
-//     //     })
-//     // }
-//     this.setState({
-//       page: this.state.page + 1,
-//     });
-//     this.updateNews();
-//   };
 
 const fetchMoreData = async() => {
     const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apikey=${props.apiKey}&page=${page+1}&pageSize=${props.pageSize}`;    
