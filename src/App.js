@@ -44,6 +44,7 @@ const App = () =>{
           <Route exact path="/AustraliaTopHeadlines" element =  {<News  setProgress={setProgress} apiKey={apiKey} key="general" pageSize={9} country={"au"} category={"general"} country_name={"Australia"}/>}> </Route> 
           <Route exact path="/UAETopHeadlines" element =  {<News  setProgress={setProgress} apiKey={apiKey} key="general" pageSize={9} country={"ae"} category={"general"} country_name={"United Arab Emirates"}/>}> </Route> 
           <Route exact path="/ChinaTopHeadlines" element =  {<News  setProgress={setProgress} apiKey={apiKey} key="general" pageSize={9} country={"cn"} category={"general"} country_name={"China"}/>}> </Route> 
+          {/* <Route exact path="/YemenTopHeadlines" element =  {<News  setProgress={setProgress} apiKey={apiKey} key="general" pageSize={9} country={"ye"} category={"general"} country_name={"Yemen"}/>}> </Route>  */}
           <Route exact path="/about" element = {<About/>}> </Route>
         </Routes>
        </div>

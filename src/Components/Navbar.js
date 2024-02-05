@@ -40,13 +40,14 @@ const Navbar=()=>{
     Country
   </a>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <li><a class="dropdown-item" href="IndiaTopHeadlines">India</a></li>
-    <li><a class="dropdown-item" href="USTopHeadlines">USA</a></li>
-    <li><a class="dropdown-item" href="AustraliaTopHeadlines">Australia</a></li>
-    <li><a class="dropdown-item" href="JapanTopHeadlines">Japan</a></li>
-    <li><a class="dropdown-item" href="KoreaTopHeadlines">Korea</a></li>
-    <li><a class="dropdown-item" href="UAETopHeadlines">UAE</a></li>
-    <li><a class="dropdown-item" href="ChinaTopHeadlines">China</a></li>
+    <li><a class="dropdown-item" href="IndiaTopHeadlines">🇮🇳 India</a></li>
+    <li><a class="dropdown-item" href="USTopHeadlines">🇺🇸 USA</a></li>
+    <li><a class="dropdown-item" href="AustraliaTopHeadlines">🇦🇺 Australia</a></li>
+    <li><a class="dropdown-item" href="JapanTopHeadlines">🇯🇵 Japan</a></li>
+    <li><a class="dropdown-item" href="KoreaTopHeadlines">🇰🇷 Korea</a></li>
+    <li><a class="dropdown-item" href="UAETopHeadlines">🇦🇪 UAE</a></li>
+    <li><a class="dropdown-item" href="ChinaTopHeadlines">🇨🇳 China</a></li>
+    {/* <li><a class="dropdown-item" href="YemenTopHeadlines">🇾🇪 Yemen</a></li> */}
   </ul>
 </div>
         <li className="nav-item">

@@ -70,6 +70,7 @@ const fetchMoreData = async() => {
                   return (
                     <div className="col-md-4" key={element.url}>
                       <NewsItem
+                        category={props.category}
                         title={element.title ? element.title.slice(0, 45) : ""}
                         description={
                           element.description
