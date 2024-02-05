@@ -53,7 +53,7 @@ const fetchMoreData = async() => {
         
           <h1 className="text-center" style={{ margin: "30px 0px", marginTop: "90px"}}>
             CC-News Top {capitalizeFirstLetter(props.category)}{" "}
-            Headlines
+            Headlines {(props.country_name)}
           </h1>
           {loading && <Spinner />}
           
@@ -88,32 +88,6 @@ const fetchMoreData = async() => {
             </div>
             </div>
           </InfiniteScroll>
-          
-        
-
-        {/* <div className="container d-flex justify-content-between my-2">
-          <button
-            disabled={this.state.page <= 1}
-            type="button"
-            className="btn btn-dark"
-            onClick={this.handlePrevClick}
-          >
-            {" "}
-            &larr; Previous
-          </button>
-          <button
-            disabled={
-              this.state.page + 1 >
-              Math.ceil(this.state.totalResults / props.pageSize)
-            }
-            type="button"
-            className="btn btn-dark"
-            onClick={this.handleNextClick}
-          >
-            {" "}
-            Next &rarr;
-          </button>
-        </div> */}
       </>
     );
   }
