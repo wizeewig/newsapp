@@ -17,7 +17,7 @@ const About =()=>{
                   <div class="col-12 col-xl-11">
                     <h2 class="h1 mb-3 my-4">CC NewsApp</h2>
                     <p class="lead fs-4 text-secondary mb-3">Welcome to CC-News, your go-to source for staying informed and connected to the world around you. We understand the importance of reliable and up-to-date news, which is why we've created a seamless platform that brings you the latest headlines from a variety of domains.</p>
-                    <p class="mb-5">With our app, powered by the latest technology and the NewsAPI, you can access news from diverse categories such as Health, Sports, Technology, Business, and more. We believe in empowering our users to tailor their news consumption experience, allowing you to stay focused on the topics that matter most to you.</p>
+                    <p class="mb-5">With our app, powered by the latest technology and the NewsAPI, you can access news from diverse categories such as Health, Sports, Technology, Business, and more. You can view news from all around the world by selecting different countries. We believe in empowering our users to tailor their news consumption experience, allowing you to stay focused on the topics that matter most to you.</p>
                     <div class="row gy-4 gy-md-0 gx-xxl-5X">
                       <div class="col-12 col-md-6">
                         <div class="d-flex">
@@ -28,7 +28,7 @@ const About =()=>{
                           </div>
                           <div>
                             <h4 class="mb-3">Comprehensive Coverage</h4>
-                            <p class="text-secondary mb-0">Stay well-informed with our extensive coverage across multiple domains. </p>
+                            <p class="text-secondary mb-0">Stay well-informed with our extensive coverage across multiple domains and multiple countries. </p>
                           </div>
                         </div>
                       </div>
