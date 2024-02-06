@@ -5,18 +5,11 @@ import {BrowserRouter as Router,Route, Routes } from 'react-router-dom'
 import LoadingBar from 'react-top-loading-bar'
 import About from './Components/About'
 
+
 const App = () =>{
 
-  const apiKey = "a73e703a384146a0b5b812d393f3a7c2"
-  //const apiKey= process.env.REACT_APP_NEWS_API
-
-  // state={
-  //   progress: 0
-  // }
+  const apiKey = process.env.REACT_APP_NEWS_API
   const [progress, setProgress]=useState(0)
-  // setProgress = (progress) =>{
-  //   setState({progress: progress})
-  // }
 
 
     return (
@@ -27,7 +20,6 @@ const App = () =>{
        height={3}
         color='#f11946'
         progress={progress}
-        // onLoaderFinished={() => setProgress(0)}
       />
        <Routes>
           <Route exact path="/" element = {<News  setProgress={setProgress} apiKey={apiKey} key="general" pageSize={9} country={"in"} category={"general"} country_name={"India"}/>}/>
